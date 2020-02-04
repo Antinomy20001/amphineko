@@ -32,6 +32,12 @@
     position: relative;
 }
 
+.header .name.nickname::after{
+    content: 'or'    
+}
+.header .name.end::after{
+    content: ''    
+}
 .header .name.lang-cn::after {
     content: 'zh-CN';
 }
